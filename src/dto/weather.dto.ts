@@ -13,7 +13,7 @@ export type WeatherSummary = {
   temperatureF?: number;
   condition?: string;
   windSpeedKph?: number;
-  updatedAt?: string; // ISO date-time
+  updatedAt?: string;
   isHotDay?: boolean;
   isGoodForConcretePouring?: boolean;
 }
